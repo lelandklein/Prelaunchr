@@ -7,7 +7,7 @@ gem 'delayed_job_active_record', '~> 4.0.3'
 gem 'devise'
 gem 'pg'
 gem 'rails', '4.2.5.2'
-gem 'unicorn'
+# gem 'unicorn'
 
 
 # Gems used only for assets and not required

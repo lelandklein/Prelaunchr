@@ -41,27 +41,32 @@ html.home{
 
 #home .hero .large{
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 60px;
 	color: #8ed6ee;
 	text-transform: uppercase;
-	margin: 85px 0 0 136px;
-	position: relative;
+	margin: 145px 90px 0px 0px;
+	position: absolute;
 	z-index: 2;
 	letter-spacing: 2px;
+	right: 0px;
+	top:0;
+	text-shadow: 0 0 3px #000000;
 }
 
 #home .hero .small{
 	font-weight: bold;
-	color: #955F5D;
-	font-size: 18px;
-	margin: 10px 0 0 115px;
+	color: #8ed6ee;
+	font-size: 28px;
+	margin: 10px 70px 0px 0px;
 	line-height: 30px;
-	position: relative;
-	z-index: 2;
+	position: absolute;
+	z-index: 3;
 	text-transform: uppercase;
 	text-align: center;
-	width: 375px;
 	letter-spacing: 1px;
+	right: 0px;
+	top: 214px;
+	text-shadow: 0 0 3px #000000;
 }
 
 #home .form-wrap{
@@ -71,11 +76,11 @@ html.home{
 }
 
 #home .form-wrap .key{
-	width: 46px;
-	height: 19px;
+	width: 92px;
+	height: 38px;
 	margin: 0 auto;
 	background: image-url("home/key.png") 0 0 no-repeat;
-	background-size: 46px 19px;
+	background-size: 92px 38px;
 }
 
 #home .form-wrap .byline{
@@ -156,7 +161,7 @@ html.home{
 }
 
 #home .form-wrap.ended .go-to a:hover{
-	color: #955F5D;
+	color: #8ed6ee;
 }
 
 #home .form-wrap.ended .again{
@@ -212,7 +217,7 @@ html.home{
 }
 
 #home .form-wrap.ended .go-to a:hover{
-	color: #955F5D;
+	color: #8ed6ee;
 }
 
 #home .form-wrap.ended .again{
@@ -256,7 +261,6 @@ html.home{
 }
 
 #refer .header .content{
-	width: 315px;
 	margin: 0 auto;
 }
 
@@ -279,14 +283,14 @@ html.home{
 	margin-right: 14px;
 	letter-spacing: 1px;
 	background: image-url("refer/logo.png") 0 0 no-repeat;
-	background-size: 106px 19px;
-	height: 19px;
-	width: 106px;
-	margin-top: 15px;
+	background-size: 110px 38px;
+	height: 38px;
+	width: 110px;
+	margin-top: 5px;
 }
 
 #refer .hero{
-	background: #F1F0EE;
+	background: #ececec;
 	height: 391px;
 	overflow: hidden;
 }
@@ -302,16 +306,17 @@ html.home{
 }
 
 #refer .mammoth .need{
-	color: #FFF;
-	font-size: 38px;
+	color: #8ed6ee;
+	font-size: 36px;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 102px 0 0 72px;
+	margin: 200px 0 0 150px;
 	display: block;
 	line-height: 56px;
 	letter-spacing: 4px;
 	text-align: center;
-	width: 284px;
+	width: 300px;
+	text-shadow: 0 0 3px #000;
 }
 
 #refer .share-wrap{
@@ -622,12 +627,12 @@ only screen and (min-device-pixel-ratio: 2) {
 
 	#home .form-wrap .key{
 		background: image-url("home/key@2x.png") 0 0 no-repeat;
-		background-size: 46px 19px;
+		background-size: 92px 38px;
 	}
 
 	#refer .header .logo{
 		background: image-url("refer/logo@2x.png") 0 0 no-repeat;
-		background-size: 106px 19px;
+		background-size: 110px 38px;
 	}
 
 	#refer .mammoth{
